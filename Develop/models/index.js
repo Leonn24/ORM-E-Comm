@@ -9,7 +9,7 @@ Product.belongsTo(Category, {
   foreginKey: 'catagory_id'
 });
 
-Product.belongsToMany(tag, {
+Product.belongsToMany(Tag, {
   through: ProductTag,
   foreginKey: 'product_id',
 });

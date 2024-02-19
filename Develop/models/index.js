@@ -11,16 +11,16 @@ Product.belongsTo(Category, {
 
 Product.belongsToMany(Tag, {
   through: ProductTag,
-  foreginKey: 'product_id',
+  foreignKey: 'product_id',
 });
 
 Tag.belongsToMany(Product, {
   through: ProductTag,
-  foreginKey: 'tag_id',
+  foreignKey: 'tag_id',
 });
 
 Category.hasMany(Product, {
-  foreginKey: 'category_id'
+  foreignKey: 'category_id'
 });
 
 module.exports = {

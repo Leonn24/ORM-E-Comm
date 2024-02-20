@@ -24,3 +24,12 @@ WHEN I test API POST, PUT, and DELETE routes in Insomnia
 THEN I am able to successfully create, update, and delete data in my database
 ```
 
+## Screenshots
+
+[Category](./assets/images/category.png)
+[Tags](./assets/images/tags.png)
+[Products](./assets/images/products.png)
+
+## Links
+
+[Github Link](https://github.com/Leonn24/ORM-E-Comm)

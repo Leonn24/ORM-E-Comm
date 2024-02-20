@@ -1,5 +1,12 @@
 # Object-Relational Mapping (ORM): E-Commerce Back End
 
+## Description
+
+```md
+The back-end database has been purposed towards e-commerce websites using Express.js API and Sequelize to connect to the MySQL database.
+User's have the ability to use GET, POST, PUT, and DELETE routes to display and manipulate data in the users database.
+```
+
 ## User Story
 
 ```md
@@ -26,10 +33,12 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ## Screenshots
 
-[Category](./assets/images/category.png)
-[Tags](./assets/images/tags.png)
-[Products](./assets/images/products.png)
+![Category](./assets/images/category.png)
+![Tags](./assets/images/tags.png)
+![Products](./assets/images/products.png)
 
 ## Links
 
 [Github Link](https://github.com/Leonn24/ORM-E-Comm)
+
+[Video Link](https://youtu.be/OsrpWQugZFA)
